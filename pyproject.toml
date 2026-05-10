@@ -1,0 +1,11 @@
+[project]
+name = "assignment2"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.136.1",
+    "openai>=2.36.0",
+    "pydantic-settings>=2.14.1",
+    "scalar-fastapi>=1.8.2",
+    "uvicorn>=0.46.0",
+]
